@@ -13,7 +13,8 @@
             android:name=".DrawerActivity"
             android:label="@string/title_activity_drawer"
             android:theme="@style/Theme.Project_Cryptonite.NoActionBar"></activity>
-        <activity android:name=".Home_Page" />
+        <activity android:name=".Home_Page"
+            android:parentActivityName=".MainActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
